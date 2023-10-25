@@ -36,7 +36,7 @@ public class TI_RegPagi22205043Latihan17ProgramTunjangan {
         }
 
         // Tampilkan tunjangan
-        System.out.println("==== Hasil Perhitungan ====");
+        System.out.println("\n==== Hasil Perhitungan ====");
         System.out.println("Gaji pokok anda = " + gajiPokok);
         System.out.println("Tunjangan karyawan adalah Rp" + tunjangan);
         System.out.println("Total Gaji = " + (gajiPokok + tunjangan));
