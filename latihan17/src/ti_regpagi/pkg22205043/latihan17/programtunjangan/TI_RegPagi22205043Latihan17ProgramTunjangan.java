@@ -27,11 +27,11 @@ public class TI_RegPagi22205043Latihan17ProgramTunjangan {
 
         // Input status pernikahan
         System.out.print("Masukkan status pernikahan (menikah/belum): ");
-        String statusPernikahan = input.next();
+        String statusPernikahan = input.next().toUpperCase();
 
         // Hitung tunjangan
         double tunjangan = 0;
-        if (statusPernikahan.equals("menikah")) {
+        if (statusPernikahan.equals("MENIKAH")) {
             tunjangan = gajiPokok * 0.35;
         }
 
